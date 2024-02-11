@@ -23,9 +23,9 @@ const responsiveNavToggler = () => {
 function headerHandler() {
         const header = document.getElementById("header");
         if (window.scrollY > 0) {
-                header.classList.add("bg-[#000000ef]", "backdrop-blur");
+                header.classList.add("bg-[#000000dd]", "backdrop-blur");
         } else {
-                header.classList.remove("bg-[#000000ef]", "backdrop-blur");
+                header.classList.remove("bg-[#000000dd]", "backdrop-blur");
         }
 }
 
